@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+  body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: white;
+  line-height: 1.6;
+}
+#showcase {
+  background-image: url('../img/background-image-demo.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20 px;
+}
+#showcase h1 {
+  font-size: 70px;
+}
+#showcase p {
+  font-size: 20px;
+}
+#showcase .button {
+  font-size: 20px;
+  text-decoration: none;
+  color: red;
+  border: 5px white solid;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#showcase .button:hover{
+  background-color: red;
+  color: white;
+  border: 5px red solid;
+  font-weight: bold;
+}
+#info {
+  color: white;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px 20px 20px;
+}
+#contact {
+  color: black;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20 px;
+}
+#contact #icons {
+  padding-top: 10%;
+  stroke:black;
+}
+feather.icons.x
+// {
+//    name: 'x',
+//    contents: '<line ... /><line ... />',
+//    tags: ['cancel', 'close', 'delete', 'remove'],
+//    attrs: {
+//      class: 'feather feather-x',
+//      xmlns: 'http://www.w3.org/2000/svg',
+//      width: 24,
+//      height: 24,
+//      viewBox: '0 0 24 24',
+//      fill: 'none',
+//      stroke: 'currentColor',
+//      'stroke-width': 2,
+//      'stroke-linecap': 'round',
+//      'stroke-linejoin': 'round',
+//    },
+//    toSvg: [Function],
+// }
