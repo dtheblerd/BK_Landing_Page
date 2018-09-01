@@ -2,24 +2,26 @@
   margin: 0;
   padding: 0;
 }
-  body {
+body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
-  color: white;
+  color: black;
   line-height: 1.6;
 }
-#showcase {
-  background-image: url('../img/background-image-demo.jpeg');
+.container #showcase {
   background-size: cover;
   background-position: center;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 20 px;
+  background-image: url('../img/rawpixel-665378-unsplash.jpg');
+  max-width: 100%;
+  max-height: 100%;
+  height: 100vh;
+  margin: auto;
 }
 #showcase h1 {
   font-size: 70px;
@@ -27,66 +29,58 @@
 #showcase p {
   font-size: 20px;
 }
-#showcase .button {
+.button {
   font-size: 20px;
   text-decoration: none;
   color: red;
-  border: 5px white solid;
-  background-color: white;
-  border-radius: 5px;
-  margin-top: 20px;
+  border: 5px transparent solid;
+  font-weight: bold;
+  margin-top: 50px;
 }
-#showcase .button:hover{
+.button:hover {
   background-color: red;
   color: white;
   border: 5px red solid;
+  border-radius: 5px;
   font-weight: bold;
 }
-#info {
-  color: white;
-  background-color: black;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0 20px 20px 20px;
-}
-#contact {
+/*Navigation Bar*/
+nav {
+  float: right;
   color: black;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0 20 px;
 }
-#contact #icons {
-  padding-top: 10%;
-  stroke:black;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-feather.icons.x
-// {
-//    name: 'x',
-//    contents: '<line ... /><line ... />',
-//    tags: ['cancel', 'close', 'delete', 'remove'],
-//    attrs: {
-//      class: 'feather feather-x',
-//      xmlns: 'http://www.w3.org/2000/svg',
-//      width: 24,
-//      height: 24,
-//      viewBox: '0 0 24 24',
-//      fill: 'none',
-//      stroke: 'currentColor',
-//      'stroke-width': 2,
-//      'stroke-linecap': 'round',
-//      'stroke-linejoin': 'round',
-//    },
-//    toSvg: [Function],
-// }
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    color: red;
+}
+/*organize about page*/
+.data {
+
+}
+.photo {
+  float: left;
+  width: 30%;
+}
+.blurb {
+  float: right;
+  width: 70%;
+}
+footer{
+  clear: none;
+}
