@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Georgia, Adamina,Crimson+Text,Lato,Lusitana,Merriweather+Sans,Open+Sans,Raleway,Roboto,Roboto+Condensed,Source+Sans+Pro,Source+Serif+Pro
+  font-family: Lato;
   font-size: 17px;
   color: black;
   line-height: 1.6;
@@ -23,6 +23,7 @@ body {
 #showcase h1 {
   font-size: 70px;
   color: #972b2b;
+  text-transform: uppercase;
 }
 #showcase p {
   font-size: 20px;
@@ -42,6 +43,8 @@ body {
   border-radius: 5px;
   font-weight: bold;
 }
+
+
 /*Navigation Bar*/
 nav {
   overflow: hidden;
@@ -96,7 +99,7 @@ nav li a:hover {
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-content: center;
   align-items: center;
   text-align: center;
   background-color: white;
@@ -108,7 +111,8 @@ nav li a:hover {
 #showcase2 h1 {
   font-size: 70px;
   color: #972b2b;
-  margin-top: 10%;
+  margin-top: 2%;
+  text-transform: uppercase;
 }
 #showcase2 p {
   font-size: 20px;
@@ -118,17 +122,16 @@ nav li a:hover {
   font-size: 20px;
   text-decoration: none;
   color: #972b2b;
-  border: 5px transparent solid;
-  font-weight: bold;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  border: 1px #972b2b solid;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-family: Georgia;
+  padding: 1%;
 }
 .button2:hover {
   background-color: #972b2b;
   color: white;
-  border: 5px #972b2b solid;
-  border-radius: 5px;
-  font-weight: bold;
+  font-style: italic;
 }
 .round img {
   max-width: 25%;
