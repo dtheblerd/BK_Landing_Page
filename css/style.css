@@ -23,7 +23,6 @@ body {
 #showcase h1 {
   font-size: 70px;
   color: #972b2b;
-  text-transform: uppercase;
 }
 #showcase p {
   font-size: 20px;
@@ -109,10 +108,9 @@ nav li a:hover {
   margin: auto;
 }
 #showcase2 h1 {
-  font-size: 70px;
+  font-size: 69px;
   color: #972b2b;
   margin-top: 2%;
-  text-transform: uppercase;
 }
 #showcase2 p {
   font-size: 20px;
@@ -123,7 +121,6 @@ nav li a:hover {
   text-decoration: none;
   color: #972b2b;
   border: 1px #972b2b solid;
-  margin-top: 2%;
   margin-bottom: 5%;
   font-family: Georgia;
   padding: 1%;
@@ -137,5 +134,10 @@ nav li a:hover {
   max-width: 25%;
   height: auto;
   border-radius: 50%;
-  margin-bottom: 50px;
+}
+.google-form {
+  margin-top: 2%;
+  align-content: center;
+  align-items: center;
+  text-align: center;
 }
